@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "library": ["packages/library/src/index.ts"],
+      "next-lib": ["packages/next-lib/src/index.ts"],
+      "react_lib": ["packages/react-lib/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

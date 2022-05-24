@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aws-ruby-cron-with-dynamodb.iml" filepath="$PROJECT_DIR$/.idea/modules/aws-ruby-cron-with-dynamodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aws-ruby-line-bot.iml" filepath="$PROJECT_DIR$/.idea/modules/aws-ruby-line-bot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aws-ruby-sinatra-dynamodb-api.iml" filepath="$PROJECT_DIR$/.idea/modules/aws-ruby-sinatra-dynamodb-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aws-ruby-sqs-with-dynamodb.iml" filepath="$PROJECT_DIR$/.idea/modules/aws-ruby-sqs-with-dynamodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aws-ruby-step-functions.iml" filepath="$PROJECT_DIR$/.idea/modules/aws-ruby-step-functions.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aws-ruby-step-functions-express.iml" filepath="$PROJECT_DIR$/.idea/modules/aws-ruby-step-functions-express.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/aws-ruby-step-functions-with-callback.iml" filepath="$PROJECT_DIR$/.idea/modules/aws-ruby-step-functions-with-callback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serverless/legacy/aws-scala-sbt/aws-scala-sbt.iml" filepath="$PROJECT_DIR$/serverless/legacy/aws-scala-sbt/aws-scala-sbt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/google-ruby-simple-http-endpoint.iml" filepath="$PROJECT_DIR$/.idea/modules/google-ruby-simple-http-endpoint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/nx.iml" filepath="$PROJECT_DIR$/.idea/nx.iml" />
+    </modules>
+  </component>
+</project>

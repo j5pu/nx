@@ -1,5 +1,17 @@
 {
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
-  "projects": {}
+  "projects": {
+    "bbin": "packages/bbin",
+    "library": "packages/library",
+    "next-app": "packages/next-app",
+    "next-app-e2e": "packages/next-app-e2e",
+    "next-lib": "packages/next-lib",
+    "node": "packages/node",
+    "react-app": "packages/react-app",
+    "react-app-e2e": "packages/react-app-e2e",
+    "react-lib": "packages/react-lib",
+    "web": "packages/web",
+    "web-e2e": "packages/web-e2e"
+  }
 }

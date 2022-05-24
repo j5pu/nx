@@ -1,10 +1,9 @@
-
-
-# Nx
+# Workers
 
 This project was generated using [Nx](https://nx.dev).
 
-<p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450"></p>
+<p style="text-align: center;"><!--suppress LongLine -->
+<img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-logo.png" width="450" alt="nx logo"></p>
 
 🔎 **Smart, Fast and Extensible Build System**
 
@@ -12,7 +11,8 @@ This project was generated using [Nx](https://nx.dev).
 
 Nx supports many plugins which add capabilities for developing different types of applications and different tools.
 
-These capabilities include generating applications, libraries, etc as well as the devtools to test, and build projects as well.
+These capabilities include generating applications, libraries, etc. as well as the devtools to test, 
+and build projects as well.
 
 Below are our core plugins:
 
@@ -20,6 +20,29 @@ Below are our core plugins:
   - `npm install --save-dev @nrwl/react`
 - Web (no framework frontends)
   - `npm install --save-dev @nrwl/web`
+- TS Web application (framework-agnostic)
+  - `npm install --save-dev @nrwl/web`
+  - `nx generate @nrwl/web:app demoapp`
+  - `nx serve demoapp`
+- TS node application (framework-agnostic)
+  - `npm install --save-dev @nrwl/node`
+  - `nx generate @nrwl/node:app demoapp`
+  - `nx run demoapp`
+- TS based library (framework-agnostic)
+  - `npm install --save-dev @nrwl/js`
+  - `nx generate @nrwl/js:library --name=hello-tsc --buildable`
+  - `nx build hello-tsc`
+  - `nx lint hello-tsc`
+  - `nx test hello-tsc`
+  - output: `dist/packages/hello-tsc`
+- TS based library (framework-agnostic) - publishable to NPM
+  - `npm install --save-dev @nrwl/js`
+  - `nx g @nrwl/js:lib publish-me --publishable --importPath="@workers/demolib"`
+  - `nx build hello-tsc`
+  - `nx lint hello-tsc`
+  - `nx test hello-tsc`
+  - `nx publish demolib --ver=<required-version> --tag=[custom-tag]`
+  - output: `dist/packages/hello-tsc`
 - [Angular](https://angular.io)
   - `npm install --save-dev @nrwl/angular`
 - [Nest](https://nestjs.com)
@@ -28,6 +51,7 @@ Below are our core plugins:
   - `npm install --save-dev @nrwl/express`
 - [Node](https://nodejs.org)
   - `npm install --save-dev @nrwl/node`
+- 
 
 There are also many [community plugins](https://nx.dev/community) you could add.
 
@@ -45,11 +69,12 @@ Run `nx g @nrwl/react:lib my-lib` to generate a library.
 
 > You can also use any of the plugins above to generate libraries as well.
 
-Libraries are shareable across libraries and applications. They can be imported from `@nx/mylib`.
+Libraries are shareable across libraries and applications. They can be imported from `@workers/mylib`.
 
 ## Development server
 
-Run `nx serve my-app` for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.
+Run `nx serve my-app` for a dev server. Navigate to http://localhost:4200/. 
+The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
@@ -57,7 +82,8 @@ Run `nx g @nrwl/react:component my-component --project=my-app` to generate a new
 
 ## Build
 
-Run `nx build my-app` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+Run `nx build my-app` to build the project. The build artifacts will be stored in the `dist/` directory. 
+Use the `--prod` flag for a production build.
 
 ## Running unit tests
 
@@ -85,10 +111,14 @@ Visit the [Nx Documentation](https://nx.dev) to learn more.
 
 ### Distributed Computation Caching & Distributed Task Execution
 
-<p style="text-align: center;"><img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-cloud-card.png"></p>
+<p style="text-align: center;"><!--suppress LongLine -->
+<img src="https://raw.githubusercontent.com/nrwl/nx/master/images/nx-cloud-card.png" alt="nx cloud card"></p>
 
-Nx Cloud pairs with Nx in order to enable you to build and test code more rapidly, by up to 10 times. Even teams that are new to Nx can connect to Nx Cloud and start saving time instantly.
+Nx Cloud pairs with Nx in order to enable you to build and test code more rapidly, by up to 10 times. 
+Even teams that are new to Nx can connect to Nx Cloud and start saving time instantly.
 
-Teams using Nx gain the advantage of building full-stack applications with their preferred framework alongside Nx’s advanced code generation and project dependency graph, plus a unified experience for both frontend and backend developers.
+Teams using Nx gain the advantage of building full-stack applications with their preferred framework 
+alongside Nx’s advanced code generation and project dependency graph, plus a unified experience 
+for both frontend and backend developers.
 
 Visit [Nx Cloud](https://nx.app/) to learn more.

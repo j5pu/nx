@@ -1,3 +1,6 @@
+serverless
+proxies-on-cloudflare
+worker
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # compiled output
@@ -36,3 +39,8 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+/proxies-on-cloudflare/_examples/gitbook/main.ts
+/proxies-on-cloudflare/_examples/gitbook/package-lock.json
+/proxies-on-cloudflare/src/quoi.ts
+/proxies-on-cloudflare/package-lock.json
+/proxies-on-cloudflare/yarn.lock
