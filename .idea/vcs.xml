@@ -9,6 +9,7 @@
   </component>
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/nx-plugins" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/proxies-on-cloudflare" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/serverless" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/worker" vcs="Git" />
